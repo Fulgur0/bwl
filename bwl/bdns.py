@@ -13,9 +13,9 @@ def get_ip(domain):
     except:
         return 'No DNS server found for ' + args[-1]
     domain = '.'.join(args[-2:])
-    print("DNS server for '" + args[-1] + "' " + dns_server['provider'])
+    print("DNS server for '" + args[-1] + "' " + dns_server)
     try:
-        r = requests.get(dns_server['provider'] + "/" + domain)
+        r = requests.get(dns_server + "/" + domain)
         return r.text
     except:
         return 'Failed to connect to DNS server'
