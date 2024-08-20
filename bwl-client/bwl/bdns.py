@@ -16,6 +16,6 @@ def get_ip(domain):
     print("DNS server for '" + args[-1] + "' " + dns_server)
     try:
         r = requests.get(dns_server + "/" + domain)
-        return r.text
+        return json.loads(r.text)
     except:
         return 'Failed to connect to DNS server'

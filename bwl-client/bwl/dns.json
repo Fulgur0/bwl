@@ -1,7 +1,7 @@
 {
-    "bwl": "http://127.0.0.1:8000/dns/verify",
-    "test": "http://127.0.0.1:8000/dns/verify",
-    "local": "http://127.0.0.1:8000/dns/verify",
+    "bwl": "http://127.0.0.1:8001/dns/verify",
+    "test": "http://127.0.0.1:8001/dns/verify",
+    "local": "http://127.0.0.1:8001/dns/verify",
     "com": "http://dns.nont123.nl/dns/verify",
     "org": "http://dns.nont123.nl/dns/verify",
     "net": "http://dns.nont123.nl/dns/verify",
