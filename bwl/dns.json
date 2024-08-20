@@ -1,0 +1,14 @@
+{
+    "bwl": {
+        "provider": "http://127.0.0.1:8000/dns/verify"
+    },
+    "test": {
+        "provider": "http://127.0.0.1:8000/dns/verify"
+    },
+    "local": {
+        "provider": "http://127.0.0.1:8000/dns/verify"
+    },
+    "nl": {
+        "provider": "http://dns.nont123.nl/dns/verify"
+    }
+}
